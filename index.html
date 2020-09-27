@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Phone Book</title>
+  <link rel="stylesheet" href="index1.css">
+  <meta charset="utf-8">
+		<!--the meta charset="utf-8" is used for HTML5-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- ths thing is used for mobile-first-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="icon.png" width="150px" height="150px">
+    <sup><h1 class="heading">Phone</h1><h3 class="heading">Book</h3></sup>
+  </header>
+  <br>
+  <form method="POST" action="furtherlogin.php">
+    <div class="user">
+      <img src="user-shape.png" height="15px" width="15px">
+      <span>: </span>
+      <input type="text" class="inputu" name="Name" placeholder="username">
+    </div>
+    <br>
+    <div class="user">
+      <img src="key.png" height="15px" width="15px">
+      <span>: </span>
+      <input type="password" class="inputu" name="Password" placeholder="Password">
+    </div>
+    <input class="newlog but1" type="submit" name="Add" value="LOGIN" class="in">
+  </form>
+  <button class="newlog but2" onclick="document.location='newlogin.php'">NEW USER</button>
+</body>
+</html>
